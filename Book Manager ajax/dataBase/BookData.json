@@ -1,0 +1,25 @@
+{
+  "BookDataBase": [
+    {
+      "id": 1,
+      "title": "The Accursed God",
+      "auther": "Vivek Dutta Mishra",
+      "price": 199,
+      "rating": 4.9
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "auther": "JK Rowling",
+      "price": 340,
+      "rating": 4.7
+    },
+    {
+      "title": "Cheque book",
+      "auther": "Vasdev Mohi",
+      "price": "800",
+      "rating": "3.5",
+      "id": 3
+    }
+  ]
+}

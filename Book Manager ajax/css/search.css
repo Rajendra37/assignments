@@ -1,0 +1,15 @@
+.search {
+    margin-top: 5%;  
+  }
+ input[type=text]
+{
+    padding: 10px 20px;
+    width: 30%;
+
+} 
+.btn{
+      background-color:#380b5c;
+      border:none;
+      color:#ffffff;
+      padding:10px; 
+    }

@@ -1,0 +1,21 @@
+.card{	 
+    background-color:white;
+       box-shadow: 0 4px 8px 0 #00000033;
+       transition: 0.3s;
+       width: 20%;
+       height: 100px;
+       margin-top: 5%;
+       margin-left:40%; 
+       padding: 20px;
+       border-radius: 25px; 
+   }
+
+   button
+{
+	background-color:#380b5c;
+	border:none;
+	color:#ffffff;
+	padding:10px;
+    margin-left:49%;
+    border-radius: 10px;
+}

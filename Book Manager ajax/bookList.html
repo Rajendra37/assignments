@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+
+    <link rel="stylesheet" href="./css/table.css">
+    <link rel="stylesheet" href="./css/headerStyle.css">
+    <link rel="stylesheet" href="./css/search.css">
+</head>
+<div class="header">
+    <a href="" class="heading">Book Management System</a>
+    <div class="header">
+        <a class="Add" href="addBook.html">Add Book</a>
+        <a href="bookList.html">Home</a>
+    </div>
+</div>
+<div class="search">
+    <form align="center" id="searchform">
+        <input type="text" id="searchText" placeholder="Enter id/name/author to search"><br><br>
+         <!-- <input type="button" class="btn" value="Search" id="search" /> -->
+        </form>
+</div>
+<body background="./img/book.jpg">
+    <div class="divOfTable">
+        <table align="center" id="mytable">
+            <thead>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Book Title</th>
+                    <th>Author Name</th>
+                    <th>Price</th>
+                    <th>Rating</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id='tableBody'>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="./js/booklist.js"></script>
+
+</html>
