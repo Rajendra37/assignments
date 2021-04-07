@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "css-loader": "^5.2.0",
+    "style-loader": "^2.0.0"
+  }
+}
